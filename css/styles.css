@@ -2,6 +2,38 @@ body {
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
+.flexbox {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.flex-container {
+	height: 750px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*.flexbox {
+  justify-content: center;
+}
+.flex-container {
+    display:flex;
+    height: 500px;
+    width: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-start;
+}*/
+
+.landingName {
+  font-size: 50px;
+  font-weight: lighter;
+  text-align: center;
+}
 .page-footer {
   position: fixed;
   text-align: center;
@@ -16,13 +48,15 @@ h1{
   text-align: center;
 }
 
-.github {
+.github:hover {
   height: 50px;
   width: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 .linkedin {
   height: 50px;
@@ -47,17 +81,17 @@ div {
 }
 
 #div1 {
-  background: #DDD; 
+  background: #DDD;
 }
 
 #div2 {
-  background: #AAA; 
+  background: #AAA;
 }
 
 #div3 {
-  background: #777; 
+  background: #777;
 }
 
 #div4 {
-  background: #444; 
+  background: #444;
 }
