@@ -2,12 +2,16 @@ body {
   font-family: 'Alegreya Sans SC', sans-serif;
 }
 
-.flexbox {
+.hover:hover {
+  transform: rotateY(180deg);
+}
 
+.flexbox {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
+
 .flex-container {
 	height: 750px;
 	display: flex;
@@ -29,6 +33,11 @@ body {
     align-items: flex-start;
 }*/
 
+.icon {
+  display: inline-flex;
+  text-align: center;
+}
+
 .landingName {
   font-size: 50px;
   font-weight: lighter;
@@ -39,6 +48,7 @@ body {
   text-align: center;
   font-weight: 200;
   left:0px;
+  padding-bottom: 3%;
   bottom:0px;
   height:30px;
   width:100%;
