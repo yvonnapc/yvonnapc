@@ -54,6 +54,14 @@ body {
   width:100%;
 }
 
+.contact {
+  text-align: center;
+  display: inline-flex;
+}
+
+.projects {
+  display: inline-flex;
+}
 h1{
   text-align: center;
 }
@@ -71,3 +79,39 @@ div {
   position: relative;
   align-items: center;
 }
+
+/*SCROLLBAR*/
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-button {
+  width: 15px;
+  height: 15px;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5E5E5;
+  border: 0px none #ffffff;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #FCA311;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #FCA311;
+}
+::-webkit-scrollbar-track {
+  background: #E5E5E5;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #E5E5E5;
+}
+::-webkit-scrollbar-track:active {
+  background: #E5E5E5;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/*SCROLLBAR*/
