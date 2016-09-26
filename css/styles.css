@@ -156,6 +156,12 @@ h1{
   text-align: center;
 }
 
+.home-logo{
+  display: inline-flex;
+  width: 600px;
+  height: 450px;
+}
+
 /*PROJECTS*/
 .project-image {
   height: 300px;
