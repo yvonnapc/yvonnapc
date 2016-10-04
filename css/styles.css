@@ -22,10 +22,6 @@ div.btn-link {
   display: inline;
 }
 
-.hideName {
-  display: none;
-}
-
 .footer .social-area ul{
   display: block;
   width: 100%;
@@ -80,13 +76,14 @@ li{
 }
 
 a:hover {
-  text-decoration: line-through;
+  color: #cc3700;
 }
 
 .main-nav {
   text-align: center;
   padding-top: 10px;
   margin-top: 20px;
+  letter-spacing: 0.4em;
 }
 
 .icon {
