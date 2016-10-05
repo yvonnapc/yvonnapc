@@ -11,7 +11,7 @@ body {
 }
 
 .footer .credits {
-  font-family: 'Lekton', 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   width: 100%;
   text-align: center;
   font-size: 13px;
@@ -57,12 +57,9 @@ div.btn-link {
   background: #00aced;
 }
 
-#line {
-  position: absolute;
-}
-
 a {
   color: black;
+  text-decoration: none;
 }
 
 #bio {
@@ -77,6 +74,11 @@ li{
 
 a:hover {
   color: #cc3700;
+  text-decoration: none;
+}
+
+a:active {
+  color: gold;
 }
 
 .main-nav {
@@ -103,19 +105,12 @@ a:hover {
 
 .landingName {
   font-size: 50px;
-  /*font-weight: lighter;*/
-  text-align: center;
-  opacity: 0.5;
-  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .contact {
   display: table;
 }
 
-.sectionTitle{
-  color: white;
-}
 .about {
   width: 400px;
   text-align: center;
@@ -160,4 +155,26 @@ h1{
   flex-flow: wrap
   /*align-items: center;*/
   /*align-content: space-around;*/
+}
+
+.row {
+  width: 300px;
+  margin: 10px;
+  float: left;
+}
+
+@media screen and (min-width: 200px;) and (max-width: 500px;){
+  .project-image {
+    height: 300px;
+    width: 330px;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
+    align-self: center;
+    border-radius: 10px;
+  }
+
+  .project-tile{
+    opacity: .9;
+  }
 }
