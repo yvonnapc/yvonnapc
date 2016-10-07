@@ -107,6 +107,16 @@ a:active {
   font-size: 50px;
 }
 
+.landingImage {
+  height: 40%;
+  width: 100%;
+}
+
+#home-image {
+  height: 100%;
+  width: 100%;
+}
+
 .contact {
   display: table;
 }
@@ -157,10 +167,12 @@ h1{
   /*align-content: space-around;*/
 }
 
-.row {
+.info {
   width: 300px;
-  margin: 10px;
+  margin: 10px auto;
   float: left;
+  display: flex;
+  justify-content: space-around;
 }
 
 @media screen and (min-width: 200px;) and (max-width: 500px;){
