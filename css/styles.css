@@ -109,7 +109,7 @@ a:active {
 
 .landingImage {
   height: 40%;
-  width: 100%;
+  width: 100;
 }
 
 #home-image {
@@ -170,8 +170,7 @@ h1{
 .info {
   width: 300px;
   margin: 10px auto;
-  float: left;
-  display: flex;
+  display: inline-flex;
   justify-content: space-around;
 }
 
