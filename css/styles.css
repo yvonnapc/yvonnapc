@@ -1,5 +1,9 @@
 body {
   font-family: 'Alegreya Sans SC', sans-serif;
+  background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .footer {
@@ -58,7 +62,7 @@ div.btn-link {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
@@ -109,15 +113,7 @@ a:active {
 
 .landingName {
   font-size: 50px;
-}
-
-.landingImage {
-  height: 500px;
-  width: 100%;
-  background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+  color: white;
 }
 
 #home-image {
@@ -158,6 +154,10 @@ h1{
   display: inline-flex;
   width: 600px;
   height: 450px;
+}
+
+p{
+  color: white;
 }
 
 /*PROJECTS*/
