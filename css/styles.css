@@ -1,9 +1,6 @@
 body {
   font-family: 'Alegreya Sans SC', sans-serif;
   background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
 }
 
 .footer {
@@ -103,12 +100,7 @@ a:active {
   float: left;
   margin 10px;
   justify-content: center;
-  background: white;
   opacity: .9;
-}
-
-.info-container {
-  text-align: center;
 }
 
 .landingName {
@@ -138,18 +130,6 @@ a:active {
   position: absolute;
 }
 
-.project-description {
-  text-align: center;
-}
-
-h1{
-  text-align: center;
-}
-
-.title{
-  text-align: center;
-}
-
 .home-logo{
   display: inline-flex;
   width: 600px;
@@ -175,11 +155,12 @@ p{
   /*align-content: space-around;*/
 }
 
-.info {
+.summary {
   width: 300px;
   margin: 10px auto;
-  display: inline-flex;
+  display: inline-block;
   justify-content: space-around;
+  text-align: center;
 }
 
 @media screen and (min-width: 200px;) and (max-width: 500px;){
