@@ -1,6 +1,21 @@
+/*SITE WIDE STYLES*/
 body {
   font-family: 'Alegreya Sans SC', sans-serif;
   background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
+}
+
+.main-nav ul li{
+  display: inline;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #cc3700;
+  text-decoration: none;
+}
+
+a:active {
+  color: gold;
 }
 
 .footer {
@@ -17,10 +32,6 @@ body {
   text-align: center;
   font-size: 13px;
   margin: 0;
-}
-
-div.btn-link {
-  display: inline;
 }
 
 .footer .social-area ul{
@@ -42,10 +53,6 @@ div.btn-link {
   line-height: 50px;
 }
 
-/*.footer .social-area ul li:last-child {
- margin: 0;
-}*/
-
 .footer .social-area ul li a {
   font-family: 'Lato', 'HelveticaNeue', helvetica, arial, sans-serif;
   font-size: 11px;
@@ -57,6 +64,12 @@ div.btn-link {
 .footer .shr-btn-twitter:after {
   background: #00aced;
 }
+/*END SITE-WIDE STYLES*/
+
+div.btn-link {
+  display: inline;
+}
+
 
 a {
   color: white;
@@ -68,20 +81,6 @@ a {
   width: auto;
 }
 
-li{
-  display: inline;
-  font-size: 20px;
-}
-
-a:hover {
-  color: #cc3700;
-  text-decoration: none;
-}
-
-a:active {
-  color: gold;
-}
-
 .main-nav {
   text-align: center;
   padding-top: 10px;
@@ -89,10 +88,10 @@ a:active {
   letter-spacing: 0.4em;
 }
 
-.icon {
+/*.icon {
   display: inline-flex;
   text-align: center;
-}
+}*/
 
 .project-tile{
   max-width: 340px;
@@ -103,9 +102,10 @@ a:active {
   opacity: .9;
 }
 
-.landingName {
+#landingName {
   font-size: 50px;
   color: white;
+  text-align: center;
 }
 
 #home-image {
@@ -160,6 +160,9 @@ p{
   margin: 10px auto;
   display: inline-block;
   justify-content: space-around;
+}
+
+.contain-summaries {
   text-align: center;
 }
 
