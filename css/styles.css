@@ -88,10 +88,10 @@ a {
   letter-spacing: 0.4em;
 }
 
-/*.icon {
+.icon {
   display: inline-flex;
   text-align: center;
-}*/
+}
 
 .project-tile{
   max-width: 340px;
@@ -136,10 +136,6 @@ a {
   height: 450px;
 }
 
-p{
-  color: white;
-}
-
 /*PROJECTS*/
 .project-image {
   height: 300px;
@@ -150,9 +146,7 @@ p{
 .project-container {
   display: flex;
   justify-content: space-around;
-  flex-flow: wrap
-  /*align-items: center;*/
-  /*align-content: space-around;*/
+  flex-flow: wrap;
 }
 
 .summary {
