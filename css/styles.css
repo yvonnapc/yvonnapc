@@ -10,8 +10,8 @@ body {
 }
 
 a:hover {
-  color: #cc3700;
   text-decoration: none;
+  color: white;
 }
 
 a:active {
@@ -24,6 +24,7 @@ a:active {
   left: 0;
   padding: 1rem;
   text-align: center;
+  position: relative;
 }
 
 .footer .credits {
@@ -86,6 +87,16 @@ a {
   padding-top: 10px;
   margin-top: 20px;
   letter-spacing: 0.4em;
+}
+
+.nav-border {
+  padding: 10px;
+}
+
+.nav-border:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cc3700;
 }
 
 .icon {
