@@ -1,8 +1,10 @@
 /*SITE WIDE STYLES*/
 body {
   font-family: 'Lato', sans-serif;
-  background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
   font-weight: 100;
+  background-color: white;
+  border: 20px solid;
+  border-color: black;
 }
 
 .main-nav ul li{
