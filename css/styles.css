@@ -43,6 +43,11 @@ a:active {
   color: gold;
 }
 
+.sectionTitle {
+  text-transform: uppercase;
+  letter-spacing: 8px;
+}
+
 .footer {
   right: 0;
   bottom: 0;
@@ -218,9 +223,8 @@ div.btn-link {
   top: 0;
 }
 
-#blog-divider {
+#blog-divider{
   border-top: 1px solid #BABABA;
-  margin-top: 40px;
 }
 
 /*BLOG*/
