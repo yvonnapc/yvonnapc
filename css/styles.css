@@ -1,12 +1,35 @@
 /*SITE WIDE STYLES*/
 body {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Lato', sans-serif;
   background: linear-gradient(-90deg, #DAE2F8, #D6A4A4);
+  font-weight: 100;
 }
 
 .main-nav ul li{
   display: inline;
   font-size: 20px;
+}
+
+.main-nav {
+  text-align: center;
+  padding-top: 10px;
+  margin-top: 20px;
+  letter-spacing: 0.4em;
+}
+
+.nav-border {
+  padding: 10px;
+}
+
+.nav-border:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cc3700;
+}
+
+a {
+  color: white;
+  text-decoration: none;
 }
 
 a:hover {
@@ -71,46 +94,14 @@ div.btn-link {
   display: inline;
 }
 
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
 #bio {
   height: 50%;
   width: auto;
 }
 
-.main-nav {
-  text-align: center;
-  padding-top: 10px;
-  margin-top: 20px;
-  letter-spacing: 0.4em;
-}
-
-.nav-border {
-  padding: 10px;
-}
-
-.nav-border:hover {
-  border-width: 1px;
-  border-style: solid;
-  border-color: #cc3700;
-}
-
 .icon {
   display: inline-flex;
   text-align: center;
-}
-
-.project-tile{
-  max-width: 340px;
-  min-width: 340px;
-  float: left;
-  margin 10px;
-  justify-content: center;
-  opacity: .9;
 }
 
 #landingName {
@@ -122,6 +113,19 @@ a {
 #home-image {
   height: 100%;
   width: 100%;
+}
+
+.hide-blog {
+  display: none;
+}
+
+.show-blog {
+  display: block;
+}
+
+.blog-button {
+  color: red;
+  background-color: green;
 }
 
 .contact {
@@ -148,6 +152,16 @@ a {
 }
 
 /*PROJECTS*/
+.project-tile{
+  max-width: 340px;
+  min-width: 340px;
+  float: left;
+  margin 10px;
+  justify-content: center;
+  opacity: .9;
+  text-align: center;
+}
+
 .project-image {
   height: 300px;
   width: 330px;
@@ -167,10 +181,55 @@ a {
   justify-content: space-around;
 }
 
-.contain-summaries {
-  text-align: center;
+/*.summary-left {
+  float: left;
+  display: block;
+  width: 50%;
+  height: 830px;
 }
 
+.summary-right {
+  float: right;
+  display: block;
+  width: 50%;
+}
+
+.summarty-text {
+  width: 80%;
+}*/
+
+.contain-summaries {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.no-js #loader {
+  display: none;
+}
+
+.js #loader {
+  display: block;
+  position: absolute;
+  left: 100px;
+  top: 0;
+}
+
+#blog-divider {
+  border-top: 1px solid #f2f2f2;
+  margin-top: 40px;
+}
+
+/*BLOG*/
+.contain-blog {
+  max-width: 800px;
+}
+
+.blog-tile {
+  width: 75%;
+}
+
+/*END BLOG*/
 @media screen and (min-width: 200px;) and (max-width: 500px;){
   .project-image {
     height: 300px;
