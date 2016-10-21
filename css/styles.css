@@ -46,6 +46,7 @@ a:active {
 .sectionTitle {
   text-transform: uppercase;
   letter-spacing: 8px;
+  color: grey;
 }
 
 .footer {
@@ -237,18 +238,8 @@ div.btn-link {
 }
 
 /*END BLOG*/
-@media screen and (min-width: 200px;) and (max-width: 500px;){
-  .project-image {
-    height: 300px;
-    width: 330px;
-    margin-right: auto;
-    display: block;
-    margin-left: auto;
-    align-self: center;
-    border-radius: 10px;
-  }
-
-  .project-tile{
-    opacity: .9;
+@media only screen and (max-width : 500px){
+  .main-nav {
+    display: none;
   }
 }
