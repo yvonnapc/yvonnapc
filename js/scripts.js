@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#button").click(function(){
+  $("#read-blog1").click(function(){
     $("#show-test").toggle();
   });
 });

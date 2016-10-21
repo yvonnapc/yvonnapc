@@ -19,13 +19,12 @@ body {
   letter-spacing: 0.4em;
 }
 
-.nav-border {
+.nav-links {
   padding: 10px;
 }
 
-.nav-border:hover {
-  border-width: 1px;
-  border-style: solid;
+.link-underline:hover {
+  border-bottom: 1px solid;
   border-color: #cc3700;
 }
 
@@ -133,8 +132,19 @@ div.btn-link {
 }
 
 .blog-button {
-  color: red;
-  background-color: green;
+  font-size: 20px;
+  background-color: white;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 0.25em;
+  letter-spacing: 0.15em;
+  padding: 0.3em 0.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.blog-button:hover{
+  opacity: 0.5;
 }
 
 .contact {
