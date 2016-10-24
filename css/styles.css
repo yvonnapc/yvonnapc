@@ -201,6 +201,11 @@ div.btn-link {
   flex-flow: wrap;
 }
 
+.project-info-photo {
+  height: 600px;
+  width: 700px;
+}
+
 #blog-divider{
   border-top: 1px solid #BABABA;
 }
@@ -221,7 +226,33 @@ div.btn-link {
   }
 
   .mobile-nav {
-    display: block;
+    z-index: 10;
+    position: absolute;
+    background-color: grey;
+    margin-top: 12%;
+    width: 75%;
+    height: 13vh;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+
+  .mobile-nav ul :hover{
+    color: white;
+  }
+/*
+  .nav-holder {
+    width: 80%;
+  }*/
+
+  .mobile-nav ul {
+    position: relative;
+    padding: 0;
+  }
+
+  .mobile-nav ul li {
+    list-style-type: none;
   }
 
   #mobile-menu {
