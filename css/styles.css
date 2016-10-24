@@ -23,6 +23,10 @@ body {
   display: none;
 }
 
+#mobile-menu {
+  display: none;
+}
+
 .nav-links {
   padding: 10px;
 }
@@ -217,6 +221,10 @@ div.btn-link {
   }
 
   .mobile-nav {
+    display: block;
+  }
+
+  #mobile-menu {
     display: block;
   }
 }
