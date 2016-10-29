@@ -164,6 +164,18 @@ div.btn-link {
   text-align: center;
 }
 
+.general{
+  display: inline;
+}
+
+.photo-bio {
+  width: 50%;
+}
+
+.text-bio {
+  width: 50%;
+}
+
 .page-footer {
   bottom:0;
   text-align: center;
@@ -206,8 +218,35 @@ div.btn-link {
   width: 700px;
 }
 
+.project-info-page {
+  height: 550px;
+  width: 50%;
+  border-right: 1px solid #BABABA;
+}
+
 #blog-divider{
   border-top: 1px solid #BABABA;
+  float: left;
+  width: 100%;
+}
+
+#approach {
+  float: left;
+  height: 500px;
+  width: 50%;
+}
+
+#sciences {
+  float: right;
+  height:50%;
+  width: 50%;
+  display: block;
+}
+
+#words {
+  float: right;
+  height: 50%;
+  width: 50%;
 }
 
 /*BLOG*/
@@ -219,10 +258,31 @@ div.btn-link {
   width: 75%;
 }
 
+.jumb {
+  background-image: url("../img/cc.png");
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#first-blog {
+  width: 33.33%;
+  height: 210px;
+  overflow: hidden;
+}
+
 /*END BLOG*/
+
+@media only screen and (min-width : 501px){
+  .mobile-nav {
+    display: none;
+  }
+}
 @media only screen and (max-width : 500px){
   .main-nav {
-    display: none;
+    display: none !important;
   }
 
   .mobile-nav {
