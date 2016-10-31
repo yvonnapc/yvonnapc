@@ -2,9 +2,10 @@
 body {
   font-family: 'Lato', sans-serif;
   font-weight: 100;
-  background-color: white;
-  border: 20px solid;
-  border-color: black;
+  /*background-image: url("../img/weeeee.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
 }
 
 .main-nav ul li{
@@ -114,6 +115,16 @@ div.btn-link {
   width: auto;
 }
 
+#index {
+  /*background-color: lightgrey;
+  border: 1px solid;*/
+  /*transform: translate(4%, 30%) matrix(0.7071, -0.7071, 0.7071, 0.7071, 34.1379, -3.97738);*/
+}
+
+.project-specs {
+  font-size: 18px;
+}
+
 .icon {
   display: inline-flex;
   text-align: center;
@@ -207,15 +218,17 @@ div.btn-link {
   border-radius: 10px;
 }
 
+#projects-html {
+  background-color: lightgrey;
+  border-width: 10px;
+  border-color: white;
+  border-style: solid;
+}
+
 .project-container {
   display: flex;
   justify-content: space-around;
   flex-flow: wrap;
-}
-
-.project-info-photo {
-  height: 600px;
-  width: 700px;
 }
 
 .project-info-page {
@@ -251,26 +264,59 @@ div.btn-link {
 
 /*BLOG*/
 .contain-blog {
-
+  display: inline-flex;
+  /*width: 100%;*/
 }
 
 .blog-tile {
-  width: 75%;
+  width: 100%;
+  text-align: center;
 }
 
-.jumb {
-  background-image: url("../img/cc.png");
+.project-parallax {
   background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+#ccpav-parallax {
+  background-image: url("../img/cc.png");
+}
+
+#wh-parallax {
+  background-image: url("../img/whathappending.png");
 }
 
 #first-blog {
   width: 33.33%;
   height: 210px;
   overflow: hidden;
+}
+
+#first-blog:hover {
+  height: 300px;
+  width: 80%;
+  transition: height 2s;
+  background-color: lightgrey;
+  z-index: 10;
+  position: absolute;
+}
+
+#second-blog {
+  width: 33.33%;
+  height: 210px;
+  overflow: hidden;
+}
+
+#second-blog:hover {
+  height: 300px;
+  width: 80%;
+  transition: height 2s;
+  background-color: lightgrey;
+  z-index: 10;
+  position: absolute;
 }
 
 /*END BLOG*/
@@ -281,6 +327,10 @@ div.btn-link {
   }
 }
 @media only screen and (max-width : 500px){
+
+  #landingName{
+    font-size: 25px;
+  }
   .main-nav {
     display: none !important;
   }
@@ -328,4 +378,21 @@ div.btn-link {
     float: right;
     margin-top: 2%;
   }
+
+  #approach, #sciences, #words {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .contain-blog, #blog-divider {
+    display: block;
+  }
+
+  #first-blog, #second-blog {
+    width: 100%;
+    height: 300px;
+    pointer-events: none;
+  }
+
 }
