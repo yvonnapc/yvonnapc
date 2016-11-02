@@ -4,10 +4,11 @@
     <title>Yvonna Contreras</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type='text/javascript' src='https://code.jquery.com/jquery-1.12.0.min.js'></script>
     <link href="css/styles.css" rel="stylesheet">
   </head>
-  <body id="projects-html">
+  <body>
     <div class="container">
       <nav class="main-nav">
         <ul>
@@ -31,38 +32,47 @@
       </div>
 
       <div class="project-container">
-        <div class="project-tile">
-          <h3 class="title">WhatHappending Podcast</h3>
-          <a href="whathappending.html"><img class="project-image" src="img/whathappending.png"></a>
-          <h4 class="project-description">WhatHappending is a podcast where Jon and Blake watch the pilot episode and the series finale episode of a show they have not previously seen. This site was built using Drupal 7 and served as the final project of the Drupal course at Epicodus</h4>
-        </div>
-        <div class="project-tile">
-          <h3 class="title">CRATE</h3>
-          <a href="http://crate-app.herokuapp.com/"><img class="project-image" src="img/crate.png"></a>
-          <h4 class="project-description">CRATE is a web application for collecting and organizing your personal record collection. Technologies used include: Discogs API, PHP, Apache, Silex, and Twig</h4>
-        </div>
-        <div class="project-tile">
-          <img class="project-image" src="img/hair-salon.png">
-          <h3 class="title">Hair Salon</h3>
-          <h4 class="project-description">This project was an individual code review. Technologies used include: PHP, Silex, Bootstrap, CSS</h4>
-        </div>
+        <a href="whathappending.html">
+          <div class="project-tile">
+            <div id="wh-project" class="project-image">
+              <!-- <h3 class="title">WhatHappending?<br><small>A website for a Portland based podcast</small></h3> -->
+            </div>
+          </div>
+        </a>
+        <a href="crate.html">
+          <div class="project-tile">
+            <div id="crate-project" class="project-image">
+            <!-- <h3 class="title">CRATE<br><small>Discogs 2.0</small></h3>
+            <h4 class="project-description"></h4> -->
+            </div>
+          </div>
+        </a>
+
+        <a href="salon.html">
+          <div class="project-tile">
+            <img class="project-image" src="img/hair-salon.png">
+            <h3 class="title">Hair Salon<br><small>Independent project written in PHP</small></h3>
+          </div>
+        </a>
+
+        <a href="ccpaving.html">
+          <div class="project-tile">
+              <a href="ccpaving.html"><img class="project-image" src="img/cc.png"></a>
+              <h3 class="title">C&C Paving Company<br><small>A rehaul of a local companies website</small></h3>
+            <h4 class="project-description"></h4>
+          </div>
+        </a>
 
         <div class="project-tile">
-          <h3 class="title"><a href="ccpaving.html">C&C Paving Company</a></h3>
-            <a href="ccpaving.html"><img class="project-image" src="img/cc.png"></a>
-          <h4 class="project-description">A rehaul of a local companies website</h4>
-        </div>
-
-        <div class="project-tile">
-          <h3 class="title">Cat Abundiz</h3>
           <a href="http://www.catabundiz.com/"><img class="project-image" src="img/ca.png"></a>
-          <h4 class="project-description">I created a website for makeup artist Cat Abundiz</h4>
+          <h3 class="title">Cat Abundiz<br><small>A website for makeup artist Cat Abundiz</small></h3>
+          <h4 class="project-description"></h4>
         </div>
 
         <div class="project-tile">
-          <h3 class="title">Long Live Film</h3>
           <img class="project-image" src="img/llf.png">
-          <h4 class="project-description">A question board written in Ember</h4>
+          <h3 class="title">Long Live Film<br><small>A question board written in Ember</small></h3>
+          <h4 class="project-description"></h4>
         </div>
       </div>
 

@@ -212,17 +212,27 @@ div.btn-link {
   text-align: center;
 }
 
-.project-image {
-  height: 300px;
-  width: 330px;
-  border-radius: 10px;
+.title {
+  visibility: hidden;
 }
 
-#projects-html {
-  background-color: lightgrey;
-  border-width: 10px;
-  border-color: white;
-  border-style: solid;
+.project-image {
+  height: 250px;
+  width: 250px;
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+.project-image:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale3d(1.1, 1.1, 1);
+  opacity: 0.7;
+}
+
+.project-tile:hover .title {
+  visibility: visible;
 }
 
 .project-container {
@@ -289,28 +299,25 @@ div.btn-link {
   background-image: url("../img/whathappending.png");
 }
 
-#first-blog {
+#wh-project {
+  background-image: url("../img/whbg.png");
+  background-position: center;
+  background-size: contain;
+}
+
+#crate-project {
+  background-image: url("../img/crate-pj.png");
+  background-position: center;
+  background-size: contain;
+}
+
+.blog-post {
   width: 33.33%;
   height: 210px;
   overflow: hidden;
 }
 
-#first-blog:hover {
-  height: 300px;
-  width: 80%;
-  transition: height 2s;
-  background-color: lightgrey;
-  z-index: 10;
-  position: absolute;
-}
-
-#second-blog {
-  width: 33.33%;
-  height: 210px;
-  overflow: hidden;
-}
-
-#second-blog:hover {
+.blog-post:hover {
   height: 300px;
   width: 80%;
   transition: height 2s;
@@ -326,7 +333,7 @@ div.btn-link {
     display: none;
   }
 }
-@media only screen and (max-width : 500px){
+@media (min-width: 200px) and (max-width : 500px){
 
   #landingName{
     font-size: 25px;
@@ -379,6 +386,18 @@ div.btn-link {
     margin-top: 2%;
   }
 
+  .footer .social-area ul{
+    display: inline-flex;
+    width: 100%;
+    padding: 5%;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
   #approach, #sciences, #words {
     display: block;
     position: relative;
@@ -389,10 +408,18 @@ div.btn-link {
     display: block;
   }
 
-  #first-blog, #second-blog {
+  .blog-post {
     width: 100%;
     height: 300px;
     pointer-events: none;
+  }
+
+  .project-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 700px;
   }
 
 }
