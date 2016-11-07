@@ -176,7 +176,8 @@ div.btn-link {
 }
 
 .general{
-  display: inline;
+  display: block;
+  width: 100%;
 }
 
 .photo-bio {
@@ -203,13 +204,14 @@ div.btn-link {
 
 /*PROJECTS*/
 .project-tile{
-  max-width: 340px;
-  min-width: 340px;
+  height: 340px;
+  width: 340px;
   float: left;
   margin 10px;
   justify-content: center;
   opacity: .9;
   text-align: center;
+  margin: 10px;
 }
 
 .title {
@@ -223,12 +225,19 @@ div.btn-link {
           transition: all 0.5s linear;
   -webkit-transform: scale3d(1, 1, 1);
           transform: scale3d(1, 1, 1);
+  /*filter: grayscale(100%);
+  background: hsl(200,50%,50%);*/
+  background-color: hsl(200,50%,50%);
+  background-blend-mode: luminosity;
+  margin: 0 auto;
 }
 
 .project-image:hover {
   transition: all 0.3s ease-in-out;
   transform: scale3d(1.1, 1.1, 1);
-  opacity: 0.7;
+  /*opacity: 0.7;*/
+  /*filter: grayscale(0%);*/
+  background-color: transparent;
 }
 
 .project-tile:hover .title {
@@ -309,6 +318,26 @@ div.btn-link {
   background-image: url("../img/crate-pj.png");
   background-position: center;
   background-size: contain;
+}
+
+#cc-project {
+  background-image: url("../img/CC-Slice.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#ca-project {
+  background-image: url("../img/CA-Slice.png");
+  background-position: center;
+  background-size: contain;
+}
+
+#filmblog-project {
+  background-image: url("../img/llf.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .blog-post {
