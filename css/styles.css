@@ -20,14 +20,6 @@ body {
   letter-spacing: 0.4em;
 }
 
-.mobile-nav {
-  display: none;
-}
-
-#mobile-menu {
-  display: none;
-}
-
 .nav-links {
   padding: 10px;
 }
@@ -113,12 +105,6 @@ div.btn-link {
 #bio {
   height: 50%;
   width: auto;
-}
-
-#index {
-  /*background-color: lightgrey;
-  border: 1px solid;*/
-  /*transform: translate(4%, 30%) matrix(0.7071, -0.7071, 0.7071, 0.7071, 34.1379, -3.97738);*/
 }
 
 .project-specs {
@@ -292,20 +278,9 @@ div.btn-link {
   text-align: center;
 }
 
-.project-parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 700px;
-}
-
-#ccpav-parallax {
-  background-image: url("../img/cc.png");
-}
-
-#wh-parallax {
-  background-image: url("../img/whathappending.png");
+.project-screenshot {
+  height: auto;
+  width: 100%;
 }
 
 #wh-project {
